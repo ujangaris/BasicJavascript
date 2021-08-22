@@ -1,0 +1,27 @@
+DOM
+-   Antarmuka pemprograman berbasis object
+    yang mempresentasikan dokument web
+-   DOM membuat seluruh komponent dari 
+    halaman web dapat diakses dan dimanipulasi
+-   komponent
+    - Elemen HTML
+    - Atribut
+    - Text
+    - dll
+-   DOM dapat dimanipulasi(dibuat,dirubah,dihapus) 
+    menggunakan javascript
+
+    Apa yang akan dipelajari diseri ini?
+
+    Materi diseri ini:
+    - DOM Selection
+    - DOM Manipulation
+    - DOM Traversal(menelusuri htl dengan elemet html lai)
+    - Event Handling
+    - Studi Kasus
+        - membuat program2 sederhana
+
+    Untuk dapat mempelajari seri ini harus dikuasai :
+    - HTML
+    - CSS
+    - javascript
