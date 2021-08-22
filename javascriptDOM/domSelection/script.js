@@ -22,3 +22,8 @@ for (let i = 0; i < p.length; i++) {
 //merubah font size tulisan
 const h1 = document.getElementsByTagName("h1")[0];
 h1.style.fontSize = "50px";
+
+// document.getElementByClassName()
+//=> mengembalikan HTMLCollection
+const p1 = document.getElementsByClassName("p1");
+p1[0].innerHTML = 'ini dirubah dari javascript'
