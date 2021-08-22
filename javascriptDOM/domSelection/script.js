@@ -9,3 +9,16 @@ judul.style.color = "red";
 judul.style.backgroundColor = "#ccc";
 //merubah tulisannya
 judul.innerHTML = "Ujang Arisandi";
+
+// document.getElementByTagName()
+//=> mengembalikan HTMLCollection
+const p = document.getElementsByTagName("p");
+//merubah warna background
+// p[2].style.backgroundColor = "lightblue";
+//merubah warna background menggunakan looping
+for (let i = 0; i < p.length; i++) {
+  p[i].style.backgroundColor = "orange";
+}
+//merubah font size tulisan
+const h1 = document.getElementsByTagName("h1")[0];
+h1.style.fontSize = "50px";
