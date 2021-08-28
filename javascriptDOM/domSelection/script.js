@@ -86,3 +86,4 @@ const p2 = document.querySelector(".p2");
 p2.classList.add("lable");
 p2.classList.remove("lable");
 p2.classList.toggle("lable");
+document.body.classList.toggle("biru-muda");
