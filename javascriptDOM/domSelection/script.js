@@ -85,3 +85,4 @@ const p2 = document.querySelector(".p2");
 // p2.setAttribute("class", "lable");//kalo pake ini menimpa kelas lama
 p2.classList.add("lable");
 p2.classList.remove("lable");
+p2.classList.toggle("lable");
