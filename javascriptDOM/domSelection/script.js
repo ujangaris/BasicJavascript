@@ -91,3 +91,5 @@ p2.classList.add("satu");
 p2.classList.add("dua");
 p2.classList.add("tiga");
 console.log(p2.classList.item("2")); //"satu" dihitung dari nol
+console.log(p2.classList.contains("dua")); //"true" memeriksa nama class
+console.log(p2.classList.contains("empat")); //"false" class empat tidak ditemukan
