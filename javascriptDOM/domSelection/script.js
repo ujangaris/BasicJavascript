@@ -63,4 +63,7 @@ const p4 = sectionB.getElementsByTagName('p')[0];//mengambil index pertama pada 
 p4.style.backgroundColor = 'pink'; */
 
 const judul = document.getElementById("judul");
-judul.innerHTML = '<em>Ujang Arisandi</em>'
+judul.innerHTML = "<em>Ujang Arisandi</em>";
+
+const sectionA = document.querySelector("section#a");
+sectionA.innerHTML = "hello world!";
