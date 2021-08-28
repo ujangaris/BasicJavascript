@@ -77,5 +77,10 @@ judul.style.backgroundColor = "salmon";
 
 judul.setAttribute("name", "sandhika"); */
 
-const a = document.querySelector("section#a a");
+/* const a = document.querySelector("section#a a");
 a.setAttribute("id", "link");//akan ada attribute baru yakni id yang isinya link
+ */
+
+const p2 = document.querySelector(".p2");
+// p2.setAttribute("class", "lable");//kalo pake ini menimpa kelas lama
+p2.classList.add("lable");

@@ -58,4 +58,10 @@ DOM
         - element.innerHtml    
         - element.style.<property>    
         - element.setAttribute()    
-        - element.classList    
+        - element.classList//untuk mengelola class
+            *element.classList.add()    //nambah class baru
+            *element.classList.remove()   //menghilangkan class yang ada
+            *element.classList.toggle()    //jika element tidak punya class tertentu maka akan ditambahkan, jika element tersebut sudah punya class togel akan menghilangkan class tersebut
+            *element.classList.item()    //mengetahui class tertentu pada sebuah element
+            *element.classList.contains()    // untuk mengetahui ada class tertentu 
+            *element.classList.replace()    //mengganti class yang ada dengan claas  yang baru
