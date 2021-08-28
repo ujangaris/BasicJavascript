@@ -62,8 +62,12 @@ p4.style.backgroundColor = 'pink'; */
 const p4 = sectionB.getElementsByTagName('p')[0];//mengambil index pertama pada array yakni nol
 p4.style.backgroundColor = 'pink'; */
 
-const judul = document.getElementById("judul");
+/* const judul = document.getElementById("judul");
 judul.innerHTML = "<em>Ujang Arisandi</em>";
 
 const sectionA = document.querySelector("section#a");
-sectionA.innerHTML = "hello world!";
+sectionA.innerHTML = "hello world!"; */
+
+const judul = document.querySelector("#judul");
+judul.style.color = "lightblue";
+judul.style.backgroundColor = "salmon";
