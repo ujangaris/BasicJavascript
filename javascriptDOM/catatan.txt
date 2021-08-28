@@ -53,3 +53,9 @@ DOM
             - getElementByClassName() => HTMLcollection
             - querySelector() => element
             - querySelectorAll() => nodelist
+
+    # Manipulasi element
+        - element.innerHtml    
+        - element.style.<property>    
+        - element.setAttribute()    
+        - element.classList    
