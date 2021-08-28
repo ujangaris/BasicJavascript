@@ -87,3 +87,7 @@ p2.classList.add("lable");
 p2.classList.remove("lable");
 p2.classList.toggle("lable");
 document.body.classList.toggle("biru-muda");
+p2.classList.add("satu");
+p2.classList.add("dua");
+p2.classList.add("tiga");
+console.log(p2.classList.item("2")); //"satu" dihitung dari nol
