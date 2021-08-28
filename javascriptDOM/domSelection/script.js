@@ -73,6 +73,9 @@ judul.style.color = "lightblue";
 judul.style.backgroundColor = "salmon";
  */
 
-const judul = document.getElementsByTagName("h1")[0];
+/* const judul = document.getElementsByTagName("h1")[0];
 
-judul.setAttribute("name", "sandhika");
+judul.setAttribute("name", "sandhika"); */
+
+const a = document.querySelector("section#a a");
+a.setAttribute("id", "link");//akan ada attribute baru yakni id yang isinya link
